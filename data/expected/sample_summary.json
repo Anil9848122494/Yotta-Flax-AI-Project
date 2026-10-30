@@ -1,0 +1,23 @@
+{
+  "current_accounts": {
+    "active": 2,
+    "active_balance_total": 1325.5,
+    "deleted_tombstones": 1,
+    "total_including_tombstones": 3
+  },
+  "event_history": {
+    "applied": 5,
+    "stale": 1,
+    "total": 6
+  },
+  "quarantine_total": 5,
+  "sample_run": {
+    "input_count": 12,
+    "processed_count": 12,
+    "accepted_count": 6,
+    "applied_count": 5,
+    "duplicate_count": 1,
+    "stale_count": 1,
+    "rejected_count": 5
+  }
+}

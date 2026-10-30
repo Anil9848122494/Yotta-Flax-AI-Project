@@ -1,0 +1,6 @@
+source_file,line_number,event_id,reason
+data/sample_events.jsonl,8,evt-006,invalid_reference:region_id:moon
+data/sample_events.jsonl,9,evt-007,missing_required_fields:account_name
+data/sample_events.jsonl,10,evt-008,unexpected_fields:new_column
+data/sample_events.jsonl,11,,malformed_json
+data/sample_events.jsonl,12,evt-002,duplicate_event_id_conflict

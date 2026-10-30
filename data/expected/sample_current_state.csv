@@ -1,0 +1,4 @@
+account_id,account_name,region_id,balance,event_ts,event_id,is_deleted
+acct-001,Northwind Studio,na,1325.5,2025-03-01T10:02:00.000000Z,evt-002,0
+acct-002,,,,2025-03-01T10:03:00.000000Z,evt-005,1
+acct-006,Zero Balance Co,apac,0.0,2025-03-01T10:00:00.000000Z,evt-009,0

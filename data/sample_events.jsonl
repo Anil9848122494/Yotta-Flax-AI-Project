@@ -1,0 +1,12 @@
+{"event_id":"evt-001","account_id":"acct-001","operation":"insert","event_ts":"2025-03-01T10:00:00Z","account_name":"Northwind Studio","region_id":"na","balance":1250.0}
+{"event_id":"evt-002","account_id":"acct-001","operation":"update","event_ts":"2025-03-01T10:02:00Z","account_name":"Northwind Studio","region_id":"na","balance":1325.5}
+{"event_id":"evt-003","account_id":"acct-001","operation":"update","event_ts":"2025-03-01T10:01:00Z","account_name":"Northwind Studio","region_id":"na","balance":1290.0}
+{"event_id":"evt-002","account_id":"acct-001","operation":"update","event_ts":"2025-03-01T10:02:00Z","account_name":"Northwind Studio","region_id":"na","balance":1325.5}
+{"event_id":"evt-004","account_id":"acct-002","operation":"insert","event_ts":"2025-03-01T10:00:00Z","account_name":"Cedar Labs","region_id":"eu","balance":800.0}
+{"event_id":"evt-005","account_id":"acct-002","operation":"delete","event_ts":"2025-03-01T10:03:00Z"}
+{"event_id":"evt-009","account_id":"acct-006","operation":"insert","event_ts":"2025-03-01T10:00:00Z","account_name":"Zero Balance Co","region_id":"apac","balance":0.0}
+{"event_id":"evt-006","account_id":"acct-003","operation":"insert","event_ts":"2025-03-01T10:00:00Z","account_name":"Bad Region LLC","region_id":"moon","balance":4.0}
+{"event_id":"evt-007","account_id":"acct-004","operation":"insert","event_ts":"2025-03-01T10:00:00Z","region_id":"na","balance":10.0}
+{"event_id":"evt-008","account_id":"acct-005","operation":"insert","event_ts":"2025-03-01T10:00:00Z","account_name":"Schema Drift Inc","region_id":"na","balance":10.0,"new_column":"unexpected"}
+not-json
+{"event_id":"evt-002","account_id":"acct-001","operation":"update","event_ts":"2025-03-01T10:02:00Z","account_name":"Northwind Studio","region_id":"na","balance":9999.0}
