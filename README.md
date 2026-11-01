@@ -1,6 +1,6 @@
 # Yotta-Flax-AI-Project
 
-## ottaFlex CDC Challenge
+## YottaFlex CDC Challenge
 
 A small local change-data-capture pipeline that consumes newline-delimited JSON events, validates them, maintains current account state in SQLite, and preserves every accepted event in an auditable history. Rejected source rows are quarantined with the original content and source line.
 
