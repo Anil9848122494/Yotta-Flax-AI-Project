@@ -68,6 +68,10 @@ Tests cover the happy path, empty input, malformed JSON, missing/null fields, sc
 
 `sql/reconciliation.sql` contains useful queries. For a successful run, `processed_count = accepted_count + duplicate_count + rejected_count`; `accepted_count = applied_count + stale_count`. History contains accepted events only, while quarantine contains rejected rows. Current state has one row per account, including tombstones.
 
+## AI Use and Prompt History
+
+GitHub Copilot was used in VS Code for project scaffolding, implementation, tests, and documentation. Review the design and code so you can explain and take ownership of the submitted work. The prompts visible from this project conversation are recorded in [submission/PROMPT_HISTORY.md](submission/PROMPT_HISTORY.md); AI responses are omitted. Exact prompt timestamps were unavailable, and prompts from any other AI sessions must be added by the applicant before submission.
+
 ## Rules and Recovery
 
 - Events are full after-image snapshots. Required fields and types are listed in [DATA_DICTIONARY.md](DATA_DICTIONARY.md).
